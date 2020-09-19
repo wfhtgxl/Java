@@ -1,39 +1,39 @@
 /*
-å¸¸é‡ï¼šåœ¨ç¨‹åºè¿è¡ŒæœŸé—´ï¼Œå›ºå®šä¸å˜çš„é‡ã€‚
+³£Á¿£ºÔÚ³ÌÐòÔËÐÐÆÚ¼ä£¬¹Ì¶¨²»±äµÄÁ¿¡£
 
-å¸¸é‡çš„åˆ†ç±»ï¼š
-1. å­—ç¬¦ä¸²å¸¸é‡ï¼šå‡¡æ˜¯ç”¨åŒå¼•å·å¼•èµ·æ¥çš„éƒ¨åˆ†ï¼Œå«åšå­—ç¬¦ä¸²å¸¸é‡ã€‚ä¾‹å¦‚ï¼š"abc"ã€"Hello"ã€"123"
-2. æ•´æ•°å¸¸é‡ï¼šç›´æŽ¥å†™ä¸Šçš„æ•°å­—ï¼Œæ²¡æœ‰å°æ•°ç‚¹ã€‚ä¾‹å¦‚ï¼š100ã€200ã€0ã€-250
-3. æµ®ç‚¹æ•°å¸¸é‡ï¼šç›´æŽ¥å†™ä¸Šçš„æ•°å­—ï¼Œæœ‰å°æ•°ç‚¹ã€‚ä¾‹å¦‚ï¼š2.5ã€-3.14ã€0.0
-4. å­—ç¬¦å¸¸é‡ï¼šå‡¡æ˜¯ç”¨å•å¼•å·å¼•èµ·æ¥çš„å•ä¸ªå­—ç¬¦ï¼Œå°±åšå­—ç¬¦å¸¸é‡ã€‚ä¾‹å¦‚ï¼š'A'ã€'b'ã€'9'ã€'ä¸­'
-5. å¸ƒå°”å¸¸é‡ï¼šåªæœ‰é‡ä¸­å–å€¼ã€‚trueã€falseã€‚
-6. ç©ºå¸¸é‡ï¼šnullã€‚ä»£è¡¨æ²¡æœ‰ä»»ä½•æ•°æ®ã€‚
+³£Á¿µÄ·ÖÀà£º
+1. ×Ö·û´®³£Á¿£º·²ÊÇÓÃË«ÒýºÅÒýÆðÀ´µÄ²¿·Ö£¬½Ð×ö×Ö·û´®³£Á¿¡£ÀýÈç£º"abc"¡¢"Hello"¡¢"123"
+2. ÕûÊý³£Á¿£ºÖ±½ÓÐ´ÉÏµÄÊý×Ö£¬Ã»ÓÐÐ¡Êýµã¡£ÀýÈç£º100¡¢200¡¢0¡¢-250
+3. ¸¡µãÊý³£Á¿£ºÖ±½ÓÐ´ÉÏµÄÊý×Ö£¬ÓÐÐ¡Êýµã¡£ÀýÈç£º2.5¡¢-3.14¡¢0.0
+4. ×Ö·û³£Á¿£º·²ÊÇÓÃµ¥ÒýºÅÒýÆðÀ´µÄµ¥¸ö×Ö·û£¬¾Í×ö×Ö·û³£Á¿¡£ÀýÈç£º'A'¡¢'b'¡¢'9'¡¢'ÖÐ'
+5. ²¼¶û³£Á¿£ºÖ»ÓÐÁ¿ÖÐÈ¡Öµ¡£true¡¢false¡£
+6. ¿Õ³£Á¿£ºnull¡£´ú±íÃ»ÓÐÈÎºÎÊý¾Ý¡£
 */
 
 public class DamoConst {
 	public static void main(String[] args) {
-		// å­—ç¬¦ä¸²å¸¸é‡
+		// ×Ö·û´®³£Á¿
 		System.out.println("Print Const String");
 		System.out.println("");
 		System.out.println("==================");
 
-		// æ•´æ•°å¸¸é‡
+		// ÕûÊý³£Á¿
 		System.out.println(30);
 		System.out.println(-268);
 
-		// æµ®ç‚¹æ•°å¸¸é‡ï¼ˆå°æ•°ï¼‰
+		// ¸¡µãÊý³£Á¿£¨Ð¡Êý£©
 		System.out.println(246.1560);
 		System.out.println(0.52486);
 
-		// å­—ç¬¦å¸¸é‡ï¼ˆåªèƒ½æœ‰å•ä¸ªå­—ç¬¦ï¼‰
+		// ×Ö·û³£Á¿£¨Ö»ÄÜÓÐµ¥¸ö×Ö·û£©
 		System.out.println('A');
 		System.out.println('&');
 
-		// å¸ƒå°”å¸¸é‡
+		// ²¼¶û³£Á¿
 		System.out.println(true);
 		System.out.println(false);
 
-		// ç©ºå¸¸é‡ï¼Œä¸èƒ½ç›´æŽ¥ç”¨æ¥æ‰“å°è¾“å‡ºï¼ï¼
+		// ¿Õ³£Á¿£¬²»ÄÜÖ±½ÓÓÃÀ´´òÓ¡Êä³ö£¡£¡
 		// System.out.println(null);
 
 	}
